@@ -1,3 +1,3 @@
 # auction_app
 
-Several files of my college app.
+Several files of my college project.
