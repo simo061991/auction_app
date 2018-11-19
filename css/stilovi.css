@@ -1,0 +1,359 @@
+@font-face {
+    font-family: fonter;
+    src: url(fontovi/SpectralSC-Medium.ttf);
+    font-family: LSBold;
+    src: url(fontovi/LeagueSpartan-Bold.otf);
+    font-family: LLight;
+    src: url(fontovi/Lato-Light.ttf);
+
+}
+body, html {
+    height: 100%;
+	  margin: 0px;
+    padding: 0px;
+}
+#zaglavlje{
+  height: 10%;
+  width: 100%;
+  background-color: #292C35;
+}
+.podnozje{
+  height: 10%;
+  width: 100%;
+  background-color: #292C35;
+  position: relative;
+  margin-top: 0px;
+}
+#aLogo{
+  position: absolute;
+  top:-15px;
+  left:20px;
+}
+#logo{
+  width: 90px;
+}
+.navigacija{
+  list-style-type: none;
+  position: absolute;
+  right: 25px;
+  font-size: 20px;
+  margin-top: 14px;
+  font-family: fonter;
+}
+li a{
+  text-decoration: none;
+  color:white;
+}
+li{
+  display: inline;
+}
+li a:hover{
+  /*color:#7CEAEB;*/
+  text-decoration: underline;
+  text-decoration-color: #7CEAEB;
+}
+
+.naslovnica{
+  /*height: 150%;
+  width: 100%;*/
+
+  height: 81%;
+
+}
+#naslovnaSlika{
+position: relative;
+height: 100%;
+width: 100%;
+}
+.prijava{
+  margin-top: 2%;
+  margin-left: 27%;
+  height: 55%;
+  width: 40%;
+  background-color: #F1F1F1;
+  border: 5px solid #7CEAEB;
+
+}
+.podaciPrijava{
+  font-size: 40px;
+}
+#korIme,#lozinka{
+  width: 70%;
+  margin-left: 12.5%;
+  padding: 12px;
+}
+
+#oznakaKorisnika, #oznakaLozinke{
+  font-family: fonter;
+  font-size: 20px;
+  margin-left: 40%;
+}
+#oznakaKorisnika{
+  margin-left: 35.5%;
+}
+#naslovPrijava{
+  font-family: LLight;
+  text-decoration: underline;
+  font-weight: medium;
+  margin-left: 31%;
+}
+/*input[type=submit]
+*/ #potvrdiPredmet, #prijava{
+  background-color: #2FC99F;
+  margin-left: 35%;
+  width: 30%;
+  padding: 10px;
+  margin-top: 9%;
+}
+input[type=submit]:hover{
+/*#potvrdiPredmet, #prijava :hover{*/
+  background-color: #2D9D74;
+}
+#primjer {
+  width:  65%;
+  height: 106px;
+
+  background-color:#FFFAFA ;
+  margin-top: 5px;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 250px;
+  border: 2px solid #E8E8E8;
+  border-radius: 15px;
+
+
+
+
+
+}
+
+#naziv{
+  margin-left: 22%;
+  font-size: 15px;
+  width: 15%;
+
+}
+#slika1{
+  position: absolute;
+  width:10%;
+  height: 14%;
+  margin-left: 2%;
+  margin-top: 0.5%;
+
+}
+#opis{
+  position: absolute;
+  font-size: 12px;
+  margin-left:29%;
+  float: left;
+  width: 25%;
+  margin-top:-3%;
+}
+#maksimalnaCijena{
+  position: relative;
+  margin-left: 85%;
+  color: red;
+  margin-top: -5%;
+}
+#crta{
+  position: relative;
+  border: 0;
+  height: 2px;
+  width: 50%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+#traka{
+  height: 20px;
+  width:80%;
+  background-color: #FF9933;
+  border: 1px solid #E8E8E8;
+  border-radius: 15px;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#tablicaKategorije{
+  border: 2px solid #7CEAEB;
+  width:300px;
+  padding: 2%;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  left: 25%;
+  padding-top: 1px;
+  padding-bottom: 30px;
+
+}
+#tablicaKategorije:hover{
+  background-color:#7CEAEB;
+
+}
+#gumbKategorija{
+  background: none;
+  border: none;
+  width: 100%;
+  height: 50%;
+
+}
+.blokKategorija{
+  margin-top: 4%;
+}
+#naslovKategorije{
+font-size: 25px;
+font-family: LLight;
+}
+#opisKategorije{
+  font-family: fonter;
+  font-weight: normal;
+  font-style: italic;
+  margin-top: -10px;
+}
+#datumKategorije{
+  font-size: 10px;
+}
+#brojPredmeta{
+  font-size: 9px;
+}
+.blokUnosaPredmeta{
+  background-color: #F5F5F5;
+  height: 90%;
+  width: 100%;
+  position: absolute;
+
+}
+#gumbPredmet{
+  background-color: #2FC99F;
+  margin-left: 35%;
+  width: 30%;
+  padding: 10px;
+  margin-top: 2%;
+}
+#formaPredmeta{
+  position: absolute;
+  margin-top: 0%;
+  margin-left: 20%;
+  width: 60%;
+  height: 83%;
+  border: 1px solid black;
+  background-color: #E0E0E0;
+}
+#padajuciZaPredmete{
+  width:30%;
+  height: 6%;
+  margin-left: 10%
+
+}
+#nazivProizvoda{
+  position: absolute;
+  width:40%;
+  height: 5%;
+  top:11.8%;
+  margin-left: 10%;
+
+}
+#opisProizvoda{
+  margin-top: 0%;
+  width: 60%;
+  margin-left: 20%
+}
+#cijenProizvoda{
+  margin-top: 0%;
+  width: 60%;
+  height: 5%;
+  margin-left: 20%
+}
+
+#urlProizvoda{
+  margin-top: 0%;
+  width: 60%;
+  height: 5%;
+  margin-left: 20%
+}
+#potvrdiPredmet{
+  left: 6%;
+  width: 20%;
+  position: absolute;
+  top:75%;
+}
+#unosPonude{
+  margin-left: 69%;
+  position: absolute;
+  width: 8%;
+  margin-top: -37px;
+}
+#potvrdaPonude{
+  position: absolute;
+  margin-left: 69%;
+  margin-top: 0%;
+  width: 8.5%;
+
+}
+.profil, .adminProfil{
+  position: absolute;
+  width: 95%;
+  height: 60%;
+  margin-top: 5%;
+  background-color: #F8F8F8;
+  margin-left: 2%;
+  overflow: scroll;
+}
+#aktivniGumb, #zatvoreniGumb, #adminKorisnici, #adminAukcije{
+  width: 49.7%;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: LSBold;
+  background-color: #EEEEEE;
+  display: inline;
+}
+#aktivniGumb:hover{
+  background-color:  #5F5F5F;
+  color: white;
+}
+#zatvoreniGumb:hover{
+  background-color:  #5F5F5F;
+  color: white;
+}
+#adminKorisnici:hover{
+  background-color:  #5F5F5F;
+  color: white;
+}
+#aktivniGumb:hover{
+  background-color:  #5F5F5F;
+  color: white;
+}
+#adminAukcije:hover{
+  background-color:  #5F5F5F;
+  color: white;
+}
+td{
+  font-family: Helvetica;
+}
+.autorskeInformacije{
+  width: 100%;
+  height: 80%;
+  background-color: #F5F5F5;
+}
+#slikaOautoru{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+#autorskaTablica{
+  position: absolute;
+  margin-left: 500px;
+  top: 150px;
+  border: 1px solid black;
+
+}
+#slikaOautoru{
+  width: 300px;
+  height: 400px;
+}
+.informacije, #autorskaTablica,.autorPodaci{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  padding-right: 100px;
+  text-align: left;/*da ne bi bilo indenta na početku*/
+}
